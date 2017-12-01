@@ -63,7 +63,7 @@ hr {
 body {
 	margin: 0;
 	position: relative;
-	background: url("../imgs/magic-repeater.jpg") top repeat-y #010913 fixed;
+	background: url("magic-repeater.jpg") top repeat-y #010913 fixed;
 }
 
 /* For contents */
