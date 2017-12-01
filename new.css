@@ -176,12 +176,12 @@ img {
 /* Fonts */
 @font-face {
     font-family: 'Beaufort';
-    src: url(../fonts/Beaufort-Regular.ttf) format("ttf"), url("../fonts/Beaufort-Regular.ttf") format("ttf");
+    src: url("Beaufort-Regular.ttf") format("ttf"), url("../fonts/Beaufort-Regular.ttf") format("ttf");
     font-weight: normal
 }
 
 @font-face {
     font-family: 'Beaufort';
-    src: url("../fonts/Beaufort-Bold.ttf") format("ttf"), url("../fonts/Beaufort-Bold.ttf") format("ttf");
+    src: url("Beaufort-Bold.ttf") format("ttf"), url("../fonts/Beaufort-Bold.ttf") format("ttf");
     font-weight: 700
 }
