@@ -182,6 +182,6 @@ img {
 
 @font-face {
     font-family: 'Beaufort';
-    src: url("../fonts/Beaufort-Bold.ttf") format("ttf"), url("../fonts/Beaufort Bold.ttf") format("ttf");
+    src: url("../fonts/Beaufort-Bold.ttf") format("ttf"), url("../fonts/Beaufort-Bold.ttf") format("ttf");
     font-weight: 700
 }
