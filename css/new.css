@@ -1,0 +1,187 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+  	border: 0;
+  	font-size: 100%;
+  	font: inherit;
+  	vertical-align: baseline;
+}
+
+/* Clearfix */
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+  	visibility: hidden;
+  	line-height: 0;
+  	height: 0;
+}
+
+html[xmlns] .clearfix {
+	display: block;
+}
+
+* html .clearfix {
+	height: 1%;
+}
+
+html {
+	font-size: 58%;
+}
+
+body {
+	color: #a09b8c;
+	font-family: "Roboto", "Arial", sans-serif;
+	font-weight: 400;
+	font-size: 100%;
+	-webkit-font-smoothing: antialiased;
+	letter-spacing: 0.015em;
+	line-height: 1.5em;
+}
+
+hr {
+	border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    margin-bottom: 1%;
+}
+
+/* For background */
+body {
+	margin: 0;
+	position: relative;
+	background: url("../imgs/magic-repeater.jpg") top repeat-y #010913 fixed;
+}
+
+/* For contents */
+#body {
+	position: relative;
+	padding-left: 20%;
+	padding-right: 20%;
+	margin-top: -10%;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: "Beaufort", serif;
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 0.025em;
+	line-height: 1.5em;
+	color: #d8cfbd;
+}
+
+/* For h1 */
+.title {
+	font-weight: 700;
+	font-size: 275%;
+	text-shadow: 0;
+	margin-bottom: 0px;
+	line-height: 1em;
+}
+
+.title:hover {
+	text-shadow: 0 0 60px #f6f6e2;
+	transition: text-shadow 0.5s ease-in-out 0s;
+}
+/* For h2 */
+.subtitle {
+	font-family: "Roboto", sans-serif;
+	font-weight: 600;
+	font-size:  120%;
+	margin-bottom: 0;
+}
+
+#body {
+	position: relative;
+}
+
+.header-max {
+	background: #010913;
+	position: relative;
+	z-index: -1;
+	-webkit-mask-image: linear-gradient(to top, transparent 0%, black 50%);
+}
+
+.header-max:hover .header-image {
+	opacity: 0.4;
+}
+
+.header-image {
+	height: 600px;
+	background-position: center 5%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	opacity: 0.3;
+	transition: opacity 0.3s ease;
+}
+
+.header-image img {
+    visibility: hidden;
+    opacity: 0
+}
+
+img {
+    border: 0;
+    display: block;
+    max-width: 100%;
+    height: auto
+}
+
+.author {
+	font-size: 30%;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 0.2em;
+	line-height: 1.5em;
+}
+
+.date {
+	opacity: 0.5;
+}
+
+/* Footer */
+.site-footer {
+    text-align: center;
+    line-height: 1;
+    font-size: 80%;
+    margin-top: 7em;
+    padding: 0.5em 0 2em 0;
+    border-top: 1px solid #1E282D
+}
+
+.site-footer a {
+    font-weight: 700;
+    border-bottom: 1px solid #a09b8c
+}
+
+
+
+
+
+
+
+/* Fonts */
+@font-face {
+    font-family: 'Beaufort';
+    src: url(../fonts/Beaufort-Regular.ttf) format("ttf"), url("../fonts/Beaufort-Regular.ttf") format("ttf");
+    font-weight: normal
+}
+
+@font-face {
+    font-family: 'Beaufort';
+    src: url("../fonts/Beaufort-Bold.ttf") format("ttf"), url("../fonts/Beaufort-Bold.ttf") format("ttf");
+    font-weight: 700
+}
