@@ -166,3 +166,22 @@ img {
     font-weight: 700;
     border-bottom: 1px solid #a09b8c
 }
+
+
+
+
+
+
+
+/* Fonts */
+@font-face {
+    font-family: 'Beaufort';
+    src: url(../fonts/Beaufort-Regular.ttf) format("ttf"), url("../fonts/Beaufort-Regular.ttf") format("ttf");
+    font-weight: normal
+}
+
+@font-face {
+    font-family: 'Beaufort';
+    src: url("../fonts/Beaufort-Bold.ttf") format("ttf"), url("../fonts/Beaufort Bold.ttf") format("ttf");
+    font-weight: 700
+}
